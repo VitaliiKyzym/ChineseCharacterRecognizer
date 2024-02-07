@@ -1,0 +1,31 @@
+
+.header {
+    margin: 35px;
+    display: flex;
+    align-items: center;
+
+    .divider {
+        background: #fff;
+        height: 40px;
+        width: 10px;
+    }
+
+    .type {
+        font-size: 30px;
+        margin: 0 10px;
+    }
+}
+
+.counter {
+    width: 95px;
+    text-align: center;
+    font-size: 30px;
+
+    .divider {
+        width: 50px;
+        height: 5px;
+        background: #fff;
+        margin: 10px auto;
+
+    }
+}

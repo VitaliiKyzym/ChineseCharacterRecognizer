@@ -1,0 +1,51 @@
+.button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 175px;
+    height: 50px;
+    background: $button-color;
+    margin-top: 20px;
+    cursor: pointer;
+
+    .color_bar {
+        width: 10%;
+        height: 100%;
+        &.red {
+            background: $red-color;
+        }
+    
+        &.green {
+            background: $green-color;
+        }
+    }
+    .label {
+        width: 90%;
+        height: max-content;
+        font-size: 24px;
+    }
+}
+
+input[type=text] {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 40px;
+    font-family: $chinese-font-family;
+    caret-color: transparent;
+}
+
+.form {
+    width: 700px;
+    margin: 0 auto;
+
+    .prompt {
+        font-size: 40px;
+    }
+    input {
+        width: 100%;
+
+    }
+}

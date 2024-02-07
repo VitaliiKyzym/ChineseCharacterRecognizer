@@ -1,0 +1,52 @@
+/* ----- | Variables | ----- */
+
+$background-color: #2F394D;
+
+$button-color: #494D5F;
+
+$text-color: #fff;
+
+$red-color: #ED6A5E;
+$green-color: #E4FFAD;
+
+$screen-width: 1920px;
+$screen-height: 515px;
+
+$font-family: 'Roboto', sans-serif;
+$chinese-font-family: 'M PLUS Rounded 1c', sans-serif;
+
+/* ----- | General | ----- */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background: $background-color;
+  font-family: $font-family;
+}
+
+.root_container {
+  display: flex;
+}
+
+.main_container {
+  width: $screen-width - $screen-height;
+  height: $screen-height;
+}
+
+.character_input_container {
+  width: $screen-height;
+  max-height: $screen-height;
+  background-color: #fff;
+}
+
+/* ----- | Imports | ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+@import 'form';
+@import 'header';

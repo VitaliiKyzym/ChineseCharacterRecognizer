@@ -1,4 +1,4 @@
-# Chinese Handwritten Character Recognition WebApp
+# Chinese Handwritten Character Recognition Web App
 
 The main purpose of the project was to build an web app where users can test their Chinese knowledge by translating an English sentence into Chinese by writing out every character by hand. Sadly, most study apps require only characters written on the keyboard which trains digital writing skills by neglects the handwritten aspect of Chinese. As a result, a neural network architecture was built ontop of the Convolutonal Neural Netowork architecture to recognize handwritten Chinese characters from the HSK-1 vocabulary list. Then, a Vue.js frontend and a Flask backend were created to provide an easy-to-use interface for the user to perform translation tasks by handwritting each character. 
 
